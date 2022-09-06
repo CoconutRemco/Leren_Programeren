@@ -1,21 +1,22 @@
-a = 0.39
-b = 17
-c = 2.78
-d = 2
-e = 3*0.50
-totaal_bedrag_is = 12.19-1.50
+print("Kosten Croissantje?")
+a = input()
+print("Aantal Croissantjes?")
+b = input()
+print("Prijs Stokbroodje?")
+c = input()
+print("Aantal Stokbroodjes?")
+d = input()
+print("Totaal kortingsbonnen x0.50")
+e = input()
+totaal_bedrag_is = float(a)*float(b)+float(c)*float(d)-float(e)
 
 print("Croissantjes Zijn")
 # Deze regel geeft informatie
-print(a * b)
+print(float(a)*float(b))
 # Deze regel geeft een waarde
 print("Stokbroden Zijn")
 # Deze regel geeft informatie
-print(c * d)
-# Deze regel geeft een waarde
-print("Bedrag Zonder Korting Is")
-# Deze regel geeft informatie
-print(6.63 + 5.56)
+print(float(c) * float(d))
 # Deze regel geeft een waarde
 print("Korting Is")
 # Deze regel geeft informatie
