@@ -14,6 +14,10 @@ elif a < b:
 else:
     print("a en b zijn even groot")
 
+print("Het minimum is " (b))
+print("Het maximum is " (a))
+
+
 
 
 
