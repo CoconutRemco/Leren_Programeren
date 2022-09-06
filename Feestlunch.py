@@ -15,3 +15,5 @@ print("Korting Is")
 print(e)
 print("Totaal Bedrag Is")
 print(totaal_bedrag_is)
+
+print("De feestlunch kost je bij de bakker  " +str(totaal_bedrag_is)+ "  Dit is erg voordelig")
