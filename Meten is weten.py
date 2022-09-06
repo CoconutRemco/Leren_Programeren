@@ -4,10 +4,19 @@ a = int(input())
 print("Vul nog een variabele in")
 b = int(input())
 
-if a > b: 
-    print("a is het grootste getal " + str(a) )
-else:
-    print("a is helaas niet groter dan b")
-
 max = a
+min = b
+
+if a > b: 
+    print("a is het grootste getal " + str(a))
+elif a < b:
+    print("a is kleiner dan b " + str(b))
+else:
+    print("a en b zijn even groot")
+
+
+
+
+
+
 
