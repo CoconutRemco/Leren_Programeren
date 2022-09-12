@@ -4,17 +4,26 @@ print("Voer het aantal pizza's per groote in.")
 # Deze lijn geeft info
 print("Hoeveel pizza's small wilt u?")
 # Deze lijn stelt een vraag
-small = int(input())
+try:
+    small = int(input())
+except:
+    print("U Moet een getal invoeren")
 # Deze lijn vraagt om een waarde
 
 print("Hoeveel pizza's medium wilt u?")
 # Deze lijn stelt een vraag
-medium = int(input())
+try:
+    medium = int(input())
+except:
+    print("U Moet een getal invoeren")
 # Deze lijn vraagt om een waarde
 
 print("Hoeveel pizza's large wilt u?")
 # Deze lijn stelt een vraag
-large = int(input())
+try:
+    large = int(input())
+except:
+    print("U Moet een getal invoeren")
 # Deze lijn vraagt om een waarde
 sprice = 3
 mprice = 6
@@ -22,37 +31,54 @@ lprice = 10
 
 print("Totaal prijs pizza's small")
 # Deze lijn geeft info
-print(small * sprice)
+try:
+   print(small * sprice)
+except:
+    print("Er is iets foutgegaan")
 # Deze lijn geeft een waarde
 
 print("Totaal prijs pizza's medium")
 # Deze lijn geeft info
-print(medium * mprice)
+try:
+   print(medium * mprice)
+except:
+    print("Er is iets foutgegaan")
 # Deze lijn geeft een waarde
 
 print("Totaal prijs pizza's large")
 # Deze lijn geeft info
-print(large * lprice)
+try:
+    print(large * lprice)
+except:
+    print("Er is iets foutgegaan")
 # Deze lijn geeft een waarde
 
 print("Totaal Bon:")
 # Deze lijn geeft info
 
 print("------------------------------")
-
-print(small * sprice)
+try:
+    print(small * sprice)
+except:
+    print("Er is iets foutgegaan")
 # Deze lijn geeft een waarde
-
-print(medium * mprice)
+try:
+   print(medium * mprice)
+except:
+    print("Er is iets foutgegaan")
 # Deze lijn geeft een waarde
-
-print(large * lprice)
+try:
+   print(large * lprice)
+except:
+    print("Er is iets foutgegaan")
 # Deze lijn geeft een waarde
 
 print("Totaal Bedrag:")
 # Deze lijn geeft info
-
-print(small * sprice + medium * mprice + large * lprice)
+try:
+     print(small * sprice + medium * mprice + large * lprice)
+except:
+    print("Er is iets foutgegaan")
 # Deze lijn geeft een waarde
 
 
