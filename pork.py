@@ -21,11 +21,24 @@ if Task1 == '1' :
         input("Press 1 to run Press 2 to steal the scooter at the waterside")
         Task4 = input()
         if Task4 == "1":
-            input("Fuck wrong decission now you are dead")
+            input("Fuck wrong decission your crushed to die")
             input("Game over")
         else:
-            input("Shit dog there's no fuel in it you're dead.")
-            input("Game over")
+            input("Shit dog there's no fuel in it but you found an underground bunker")
+            input("You see that it leads to an underground carrots storage")
+            input("You must be verry happy now you can bread the pigs and sell them to your uncle Sam")
+            input("press 1 to take carrots and breed press 2 to eat all the carrots")
+            task6 = input()
+            if task6 == '1':
+                input("Wow verry good choise")
+                input("Now you get out the bunker and get back to the pigs you are happy they aren't mad anymore bud!")
+                input("You feed the pigs and they breed")
+                input("WHen they are big you sell half of them to uncle Sam")
+                print("Now you are able to build a big big pig farm and live happily!")
+                print("You won the game! Fantastic!")
+            else:
+                input("Well fuck mate what did you think you were gonna receive with this?")
+                input("Game over idiot!")
             
     else:
         input("Hey good choise go get some carrots to breed!")
