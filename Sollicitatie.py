@@ -1,7 +1,12 @@
+from distutils.log import error
+
+
 print("Ja is 1 nee is 2")
 nee = 2
 print("Hoeveel jaar ervaring heeft u in de dierendressuur of jongleren of acrobatiek?")
 vraag1 = input()
+if vraag1 == '3':
+    raise ValueError("3 Jaar is niet genoeg u bent niet capabel")
 
 print("Bent u in het bezit van een mbo-4 ondernemen diploma?")
 
@@ -10,6 +15,8 @@ vraag2 = input()
 print("Bent u in bezit van een geldig vrachtwagen rijbewijs?")
 
 vraag3 = input()
+if vraag3 == '2':
+    raise ValueError("Wat probeer je hier te solliciteren? idioot!")
 print("Bent u in bezit van een hoge hoed?")
 
 vraag4 = input()
@@ -44,11 +51,15 @@ print("Bent u capabel?")
 
     
 vraag9 = input()
+if vraag9 == '2':
+    raise ValueError("Kerel wat doe jij hier? we zoeken capabele mensen komop zeg.")
 
 print("Rijd u vaak onder invloed?")
 
     
 vraag10 = input()
+if vraag10 == '2':
+    raise TypeError("Wat denk jij hier te komen werken als je onder invloed rijd GEK!")
 
 print("Bent u op dit moment onder invloed?")
 
