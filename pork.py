@@ -33,7 +33,7 @@ if Task1 == '1' :
                 input("Wow verry good choise")
                 input("Now you get out the bunker and get back to the pigs you are happy they aren't mad anymore bud!")
                 input("You feed the pigs and they breed")
-                input("WHen they are big you sell half of them to uncle Sam")
+                input("When they are big you sell half of them to uncle Sam")
                 print("Now you are able to build a big big pig farm and live happily!")
                 print("You won the game! Fantastic!")
             else:
